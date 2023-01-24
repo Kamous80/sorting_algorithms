@@ -1,8 +1,3 @@
-/*
- * File: 100-shell_sort.c
- * Auth: Brennan D Baraban
- */
-
 #include "sort.h"
 
 /**
@@ -24,7 +19,6 @@ void swap_ints(int *a, int *b)
  *              order using the shell sort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
- *
  * Description: Uses the Knuth interval sequence.
  */
 void shell_sort(int *array, size_t size)
